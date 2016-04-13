@@ -13,6 +13,7 @@ namespace LibraryManager
 
         public AddBookForm()
         {
+            // IP: Можливо було б доцільним винести IMemberRepository _memberRepository та IBookRepository _bookRepository з конкретних класів форм у спільний предок 
             _bookRepository = new SqlBookRepository(ConfigurationManager.ConnectionStrings["dbLibrary"].ConnectionString);
 
             InitializeComponent();

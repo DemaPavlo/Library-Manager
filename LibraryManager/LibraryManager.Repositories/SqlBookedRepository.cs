@@ -103,6 +103,7 @@ namespace LibraryManager.Repositories
                 }
                 catch (Exception ex)
                 {
+                    // IP: exception is raised when trying to submit "Add book form" with default dates
                     throw new Exception(ex.Message);
                 }
             }
