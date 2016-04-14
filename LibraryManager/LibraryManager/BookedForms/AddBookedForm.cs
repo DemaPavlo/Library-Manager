@@ -13,7 +13,9 @@ namespace LibraryManager
 
         public AddBookedForm()
         {
+            // IP: Можливо було б доцільним винести IMemberRepository _memberRepository та IBookRepository _bookRepository з конкретних класів форм у спільний предок 
             _bookedRepository = new SqlBookedRepository(ConfigurationManager.ConnectionStrings["dbLibrary"].ConnectionString);
+            
             InitializeComponent();
 
             txtDateBooked.Text = monthCalendarBooked.SelectionStart.ToString();
