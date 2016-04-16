@@ -23,7 +23,7 @@ namespace LibraryManager
                 Application.Run(new MainForm());
             }
 
-            
+            // comment
         }
     }
 }

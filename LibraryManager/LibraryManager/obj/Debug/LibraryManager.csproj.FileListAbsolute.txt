@@ -21,3 +21,4 @@ E:\programs\Studio_Programs\LibraryManager\LibraryManager\obj\Debug\LibraryManag
 E:\programs\Studio_Programs\LibraryManager\LibraryManager\obj\Debug\LibraryManager.BrowseMembersForm.resources
 E:\programs\Studio_Programs\LibraryManager\LibraryManager\obj\Debug\LibraryManager.EditBookedForm.resources
 E:\programs\Studio_Programs\LibraryManager\LibraryManager\obj\Debug\LibraryManager.SetFineForm.resources
+C:\Users\Paul\Source\Repos\Library-Manager\LibraryManager\LibraryManager\bin\Debug\LibraryManager.exe.config
